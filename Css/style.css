@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+.lexend-deca-uniquifier {
+  font-family: "Lexend Deca", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+	font-size: 16px; font-family: "Lexend Deca", system-ui; color: #666666; background-color: #EAE5FC
+}
+.navbar-text .btn-primary{
+	background-color: #8045D9; border-color: #8045D9
+}
+.navbar-text .btn-primary:hover{
+	background-color: #6c757d; color: white
+}
+.navbar-text{
+	display: flex; 
+}
+.navbar .container{
+	padding: 10px; border-radius: 8px; margin-bottom: 60px
+}
+.navbar .container .navbar-brand img{
+    padding-bottom: 10px
+}
+.navbar .container .collapse .navbar-nav .nav-item .nav-link{
+	padding: 10px 40px
+}
+.navbar .container .collapse .navbar-nav .nav-item .nav-link:hover{
+	color: #753AC7
+}
+.navbar .container .collapse .navbar-nav .nav-item .dropdown-menu{
+	background-color: #753AC7; padding-top: 0; padding-bottom: 0; border-radius: 0
+}
+.navbar .container .collapse .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid #ced4da
+}
+.navbar .container .collapse .navbar-nav .nav-item .dropdown-menu li .dropdown-item{
+	color: white
+}
+.navbar .container .collapse .navbar-nav .nav-item .dropdown-menu li .dropdown-item:hover{
+	background-color: #EEE870
+}
+.navbar{
+	margin-top: 20px; flex-direction: column;
+}
+.navbar h3{
+	width: 100%; padding: 0 60px
+}
